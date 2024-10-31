@@ -1,0 +1,8 @@
+[package]
+name = "RuShell"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.41.0", features = ["full"] }
+colored = "2.1.0"
