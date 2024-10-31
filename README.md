@@ -1,8 +1,6 @@
-This Rust-based reverse shell client establishes a connection to an attacker's server, allowing the execution of shell commands remotely. It uses the Tokio async runtime for efficient handling of asynchronous I/O operations and leverages the colored crate for user-friendly output.
-
 # 🌐 RuShell
 
-**Rust Dir-Scan** is a fast and efficient directory scanner built using Rust. It allows users to scan a given URL for potential directories or files, utilizing a wordlist for enumeration. The tool is designed with speed and security in mind, making it ideal for web penetration testing and security assessments.
+**RuShell** This Rust-based reverse shell client establishes a connection to an attacker's server, allowing the execution of shell commands remotely. It uses the Tokio async runtime for efficient handling of asynchronous I/O operations and leverages the colored crate for user-friendly output.
 
 ## ✏️ Features
 
@@ -33,15 +31,10 @@ tokio = { version = "1.41.0", features = ["rt", "rt-multi-thread", "macros"] }
    ```bash
    git clone https://github.com/siinomega/RuShell.git
    ```
-2. Accédez au répertoire du projet :
+2. Navigate to the project directory :
 
    ```bash
    cd RuShell
-   ```
-3. Run the scanner :
-
-   ```bash
-   cargo build --release
    ```
 ---
 ## ⚡ Contribuer
